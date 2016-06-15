@@ -364,43 +364,108 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+html {
+  height: 100%; }
+
 body {
-  background: #E2E2E2;
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  height: 100%; }
+
+.index {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: cover;
+  min-height: 800px;
+  height: 100%; }
+
+.container {
+  padding: 0; }
+
+.welcome {
+  background-color: #FFFFFF;
+  max-width: 425px;
+  display: table; }
 
 #logo img {
-  height: 18.75em;
-  width: 18.75em;
-  margin-top: 6em;
+  height: 14em;
+  width: 14em;
+  margin-top: 3em;
   margin-bottom: 3em; }
 
+#tagline {
+  display: table;
+  position: absolute;
+  right: 3em;
+  display: none; }
+  @media (min-width: 725px) {
+    #tagline {
+      display: block;
+      -webkit-animation-name: tagline;
+      -webkit-animation-duration: .9s; } }
+
+@-webkit-keyframes tagline {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0; }
+  50% {
+    -webkit-transform: scale(0);
+    opacity: 0; }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1; }
+  to {
+    -webkit-transform: scale(1); } }
+#tagline img {
+  height: auto;
+  width: 14em;
+  margin-top: 4.4em; }
+
 h1 {
-  color: rgba(0, 0, 0, 0.5);
+  color: #444444;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 2.1em;
   font-weight: 800;
+  margin: 0; }
+
+h2 {
+  color: #444444;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 900;
   margin: 0; }
 
 body {
-  color: rgba(0, 0, 0, 0.5);
+  color: #444444;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 400;
   margin: 0; }
 
+#NewsTitle {
+  margin-bottom: 1.5em; }
+
+#plyset {
+  margin-bottom: 2em; }
+
 #aboutUs {
-  margin: 3em 0;
-  padding: 3em 0;
+  margin-top: 4em;
+  margin-bottom: 1.2em;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
   font-weight: 300; }
+  #aboutUs #dbahnan {
+    color: #4cb9c5; }
+    #aboutUs #dbahnan:hover {
+      color: white; }
+  #aboutUs #letabli {
+    color: #ffca1a; }
+    #aboutUs #letabli:hover {
+      color: white; }
   #aboutUs a {
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: white;
+    padding: 0.2em 0.2em;
     text-decoration: none;
     transition: color 0.1s linear; }
     #aboutUs a:hover {
