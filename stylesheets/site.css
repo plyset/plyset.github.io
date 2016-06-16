@@ -365,7 +365,9 @@ textarea {
   /* 2 */ }
 
 html {
-  min-height: 850px; }
+  min-height: 850px; 
+  height: 100%;
+}
 
 body {
   text-align: center;
