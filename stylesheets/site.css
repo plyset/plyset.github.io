@@ -373,44 +373,37 @@ body {
   font-size: 1em;
   height: 100%; }
 
-.index {
-  background-image: url(../images/background.gif);
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-size: cover;
-  height: 100%; }
-  @media (max-width: 725px) {
-    .index {
-      background-size: contain; } }
+*:focus {
+  outline: none; }
+
+small {
+  color: #ffffff;
+  font-weight: 100; }
 
 .container {
   padding: 0; }
 
-.welcome {
-  background-color: #FFFFFF;
-  max-width: 425px;
-  display: table; }
-  @media (max-width: 725px) {
-    .welcome {
-      max-width: none;
-      margin-top: 56%; } }
+.welcome_wrapper {
+  background-image: url(../images/background-set.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%; }
 
 #logo img {
-  height: 14em;
-  width: 14em;
+  height: 20em;
+  width: 20em;
   margin-top: 3em;
-  margin-bottom: 3em; }
+  margin-bottom: 5em; }
 
-#tagline {
-  display: table;
-  position: absolute;
-  right: 3em;
-  display: none; }
-  @media (min-width: 725px) {
-    #tagline {
-      display: block;
-      -webkit-animation-name: tagline;
-      -webkit-animation-duration: .9s; } }
+#mc_embed_signup form {
+  padding: 0 !important; }
+
+#mc_embed_signup .mc-field-group {
+  width: 100% !important; }
+
+#mc_embed_signup input:focus {
+  border-color: #009c7d !important; }
 
 @-webkit-keyframes tagline {
   from {
@@ -430,15 +423,18 @@ body {
   width: 14em;
   margin-top: 4.4em; }
 
+p {
+  font-weight: 100; }
+
 h1 {
-  color: #444444;
+  color: #ffffff;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 2.1em;
-  font-weight: 800;
+  font-weight: 100;
   margin: 0; }
 
 h2 {
-  color: #444444;
+  color: #ffffff;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.1em;
   font-weight: 900;
@@ -451,33 +447,111 @@ body {
   font-weight: 400;
   margin: 0; }
 
+.info_box {
+  border: 2px solid #444444;
+  border-radius: 22px;
+  margin: 4em 0 4em 0;
+  display: inline-block;
+  padding: 5px 22px; }
+
+#lifestyle {
+  margin: 4em 0; }
+
+.bankRow {
+  padding: 0; }
+
+.image_bank {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  margin: 2.8% 0; }
+
+#img_1 {
+  padding-top: 66.66%;
+  background-image: url(../images/image_bank_1.jpg); }
+
+#img_2 {
+  padding-top: 139.1%;
+  background-image: url(../images/image_bank_2.jpg); }
+
+#img_3 {
+  padding-top: 66.66%;
+  background-image: url(../images/image_bank_3.jpg); }
+
+.SpecSvg {
+  text-align: left;
+  margin-bottom: 8em; }
+  .SpecSvg h3 {
+    font-weight: 900; }
+
+#bottomImage {
+  padding-top: 30px; }
+
 #NewsTitle {
-  margin-bottom: 1.5em; }
+  margin: 3em 0; }
 
 #plyset {
   margin-bottom: 2em; }
 
-#aboutUs {
-  margin-top: 4em;
-  margin-bottom: 1.2em;
+#F01 {
+  margin-bottom: 4em; }
+
+#specs {
+  margin: 4em 0; }
+  #specs img {
+    width: 100%; }
+  #specs #homeP {
+    display: none; }
+  @media (min-width: 768px) {
+    #specs #homeP {
+      margin-top: 9%;
+      display: inline-block; } }
+  @media (min-width: 992px) {
+    #specs #lampshadeP {
+      margin-top: 16%; }
+    #specs #homeP {
+      margin-top: 21%; } }
+  @media (min-width: 1200px) {
+    #specs #lampshadeP {
+      margin-top: 25%; }
+    #specs #homeP {
+      margin-top: 29%; } }
+
+#about {
+  margin-top: 10em;
+  margin-bottom: 8em;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
-  #aboutUs #dbahnan {
+
+#us {
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #9c9c9c; }
+  #us #dbahnan {
     color: #4cb9c5; }
-    #aboutUs #dbahnan:hover {
+    #us #dbahnan:hover {
       color: white; }
-  #aboutUs #letabli {
+  #us #letabli {
     color: #ffca1a; }
-    #aboutUs #letabli:hover {
+    #us #letabli:hover {
       color: white; }
-  #aboutUs a {
+  #us a {
     padding: 0.2em 0.2em;
     text-decoration: none;
     transition: color 0.1s linear; }
-    #aboutUs a:hover {
+    #us a:hover {
       background: rgba(0, 0, 0, 0.2);
       color: white;
       transition: all 0.15s linear; }
+
+#socMed {
+  border-radius: 20px;
+  margin: 0 20px;
+  transition: all 0.15s linear; }
+  #socMed:hover {
+    background-color: #717171;
+    transition: all 0.15s linear; }
 
 #welcome {
   -webkit-animation-name: welcome;
@@ -496,3 +570,11 @@ body {
     opacity: 1; }
   to {
     -webkit-transform: scale(1); } }
+footer {
+  display: block;
+  width: 100%;
+  background-color: #242d35;
+  padding: 45px 40px;
+  float: left;
+  box-sizing: border-box;
+  text-align: center; }
