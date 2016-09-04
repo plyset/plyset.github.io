@@ -12,16 +12,6 @@
 	M221.239,158.761v-31.153c0-12.334-9.998-22.333-22.332-22.333s-22.333,9.999-22.333,22.333v31.153H221.239z"/>
 <line fill="none" stroke="#2981B7" stroke-width="2.8346" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="45.106" y1="117.013" x2="45.106" y2="122.992"/>
 <line fill="none" stroke="#2981B7" stroke-width="2.8346" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="45.106" y1="129.716" x2="45.106" y2="132.487"/>
-<g>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="165.044" y1="17.074" x2="558.548" y2="17.074"/>
-	<ellipse cx="165.234" cy="17.074" rx="3.806" ry="3.76"/>
-	<rect x="558.042" y="13.824" width="1.012" height="6.5"/>
-</g>
-<g>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="259.773" y1="361.389" x2="558.554" y2="361.389"/>
-	<circle cx="259.961" cy="361.389" r="3.76"/>
-	<rect x="558.054" y="358.139" width="1" height="6.5"/>
-</g>
 <g id="XMLID_5_" display="none">
 	<g display="inline">
 		<polyline fill="none" stroke="#000000" stroke-miterlimit="10" points="572.877,370.214 572.877,376.214 566.877,376.214 		"/>
@@ -50,11 +40,6 @@
 		<polygon id="XMLID_3_" fill="none" stroke="#2981B7" stroke-width="0.9921" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 		229.738,139.912 227.364,139.912 201.281,139.912 196.532,139.912 170.45,139.912 168.075,139.912 114.512,341.212 
 		116.887,341.212 196.532,341.212 201.281,341.212 280.926,341.212 283.301,341.212 	"/>
-</g>
-<g>
-	<line fill="none" stroke="#000000" stroke-miterlimit="10" x1="230.674" y1="182.473" x2="558.054" y2="182.473"/>
-	<circle cx="230.862" cy="182.473" r="3.76"/>
-	<rect x="557.554" y="179.223" width="1" height="6.5"/>
 </g>
 <g>
 	

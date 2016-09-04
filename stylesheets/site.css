@@ -384,7 +384,7 @@ small {
   padding: 0; }
 
 .welcome_wrapper {
-  background-image: url(../images/background-set.jpg);
+  background: linear-gradient(rgba(35, 35, 35, 0.45), rgba(35, 35, 35, 0.45)), url(../images/background-set.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -494,9 +494,6 @@ body {
 #plyset {
   margin-bottom: 2em; }
 
-#F01 {
-  margin-bottom: 4em; }
-
 #specs {
   margin: 4em 0; }
   #specs img {
@@ -523,6 +520,13 @@ body {
   margin-bottom: 8em;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300; }
+
+#ulule {
+  color: #333 !important;
+  transition: font-weight 0.5s; }
+  #ulule :focus, #ulule :hover {
+    text-decoration: none;
+    font-weight: 900; }
 
 #us {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -6,10 +6,7 @@
 	 xml:space="preserve">
 <line fill="none" stroke="#2981B7" stroke-width="2.8346" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="148.819" y1="40.124" x2="148.819" y2="151.781"/>
 <path fill="#FFFFFF" stroke="#2981B7" stroke-width="0.9921" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
-	M168.138,192.63v-26.48c0-10.484-8.498-18.983-18.982-18.983c-10.484,0-18.983,8.499-18.983,18.983v26.48H168.138z"/>
-<polygon id="XMLID_24_" fill="none" stroke="#000000" stroke-miterlimit="10" points="172.091,188.567 170.299,188.567 
-	150.612,188.567 147.027,188.567 127.34,188.567 125.548,188.567 85.119,340.507 86.912,340.507 147.027,340.507 150.612,340.507 
-	210.727,340.507 212.52,340.507 "/>
+	M168.138,192.63v-26.48c0-10.484-8.498-18.983-18.982-18.983s-18.983,8.499-18.983,18.983v26.48H168.138z"/>
 <rect id="XMLID_14_" x="67.715" y="26.572" fill="#F8FFFF" stroke="#2981B7" stroke-width="0.9921" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" width="162.208" height="25.072"/>
 <polygon id="XMLID_1_" fill="#FFFFFF" stroke="#2981B7" stroke-width="0.9921" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
 	172.295,188.559 170.503,188.559 150.816,188.559 147.231,188.559 127.545,188.559 125.752,188.559 85.323,340.499 87.116,340.499 
